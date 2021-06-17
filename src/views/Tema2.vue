@@ -7,7 +7,7 @@
         span 2
       h1 Diferidos 
     
-    p.mb-5 Los cargos diferidos se pueden dividir en dos partes: Diferidos propiamente dicho y los gastos pagados por anticipado.  
+    p.mb-5 Los cargos diferidos se pueden dividir en dos partes: diferidos propiamente dicho y los gastos pagados por anticipado.  
     .row.justify-content-center.align-items-center.mb-5
         .col-auto
             img(src="@/assets/curso/images/tema2/img_9.svg" alt="", style="width:700px; display:inline-block; margin: 0 auto;")
@@ -15,7 +15,7 @@
     #t_2_1.titulo-segundo
       h2  2.1 Concepto de cargos diferidos
 
-    p.mb-5 Los diferidos dependen de su materialidad y normalmente se llevan a una cuenta de gastos, pero esto no impide que en algunas ocasiones se deba hacer cierto análisis porque puede ser que el cargo diferido cumpla la definición de activo, y si en algún momento cumple con la definición de activo, es decir que sea un recurso controlado por la empresa proveniente de sucesos pasados de los cuales se espera recibir beneficios futuros.
+    p.mb-5 Los diferidos dependen de su materialidad y normalmente se llevan a una cuenta de gastos, pero esto no impide que en algunas ocasiones se deba hacer cierto análisis porque puede ser que el cargo diferido cumpla la definición de activo, y si en algún momento cumple con la definición de activo, es decir que sea un recurso controlado por la empresa, proveniente de sucesos pasados, de los cuales se espera recibir beneficios futuros.
 
     #t_2_2.titulo-segundo
       h2  2.2 Concepto de gastos pagados por anticipado
@@ -26,10 +26,10 @@
       
     .row.justify-content-center.align-items-center.mb-5
           .col-6
-            .bloque-texto-d.color-primario.p-4
+            .bloque-texto-d.color-secundario.p-4
               .bloque-texto-d__texto.mb-1
                 i.fas.fa-quote-left
-                span.h5 (…) el párrafo 68 no impide que ésta reconozca el pago anticipado como un activo, cuando dicho pago por servicios se haya realizado antes de que la entidad reciba estos servicios.
+                span.h5 (…) el párrafo 68 no impide que ésta reconozca el pago anticipado como un activo, cuando dicho pago por servicios se haya realizado antes de que la entidad reciba estos servicios
                 i.fas.fa-quote-right
               .bloque-texto-d__autor 
                 
@@ -39,16 +39,16 @@
     h3.titulo-tercero.mt-5 Reconocimiento
 
     p.mb-3 El párrafo 68 NIC 38: activos intangibles (Grupo 1) no impide que la entidad reconozca un pago anticipado como activo, cuando el pago por los bienes se haya realizado antes de que la entidad obtenga el derecho de acceso a esos bienes.
-    p.mb-5 Los desembolsos sobre un activo intangible, reconocidos inicialmente como gastos del periodo no se reconocerán posteriormente como parte del costo de un activo intangible.
+    p.mb-5 Los desembolsos sobre un activo intangible, reconocidos inicialmente como gastos del "periodo" no se reconocerán posteriormente como parte del costo de un activo intangible.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-md-8.col-lg-6.col-xl-6
         img.img-a.my-3(src="@/assets/curso/images/tema2/img_10.svg" alt="", style="width:500px; display:block; margin:0 auto;")
       .col-12.col-md-8.col-lg-6.col-xl-6
-        h3.titulo-tercero Ejemplo:
+        h3.titulo-tercero Ejemplos:
         p.mb-3 Párrafo 28 NIC 38 Activos Intangibles: a) los costos de introducción de un nuevo producto o servicio (incluyendo los costos de actividades publicitarias y promocionales); b) los costos de apertura del negocio en una nueva localización o dirigirlo a un nuevo segmento de clientela (incluyendo los costos de formación del personal); y (c) los costos de administración y otros costos indirectos generales.
 
-    h3.titulo-tercero
+    h3.titulo-tercero Medición inicial
 
     p La entidad elegirá política contable, entre el modelo del costo del párrafo 74 o el modelo de revaluación del párrafo 75 de la NIC 38.
     p.mb-5 En este sentido, si un activo intangible se contabiliza según el modelo de revaluación, todos los demás activos pertenecientes a la misma clase también se contabilizarán utilizando el mismo modelo, a menos que no exista un mercado activo para esa clase de activos.
@@ -57,15 +57,15 @@
       .col-lg-8
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/images/tema2/ico_3.svg' alt='AvatarTop')
-          .tarjeta.color-primario
+          .tarjeta.color-secundario
             .p-4
               .h2 Medición posterior al modelo del costo
               p La medición posterior de un activo intangible se contabilizará por su costo menos el valor de la amortización acumulada y las pérdidas por deterioro del activo contempladas en el párrafo 74 de la NIC 38.
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/images/tema2/ico_4.svg' alt='AvatarTop')
-          .tarjeta.color-primario
+          .tarjeta.color-secundario
             .p-4
-              .h2 Medición posterior al modelo revaluación
+              .h2 Medición posterior al modelo de revaluación
               p Un activo intangible se registrará por el valor revaluado (valor razonable), menos la amortización y las pérdidas acumuladas por deterioro que haya sufrido el activo.
     
     p.mb-5 Por otro lado, los desembolsos sobre una partida intangible deberán reconocerse como un gasto cuando se incurra en ellos (NIC 38 Párrafo 68)
@@ -83,8 +83,8 @@
               .col-lg-7
                 .bloque-texto-a__texto.p-5
                  
-                  p Valor Anticipo........... $ 3.000
-                  p Más IVA...................570 .000
+                  p Valor Anticipo........... $ 3.000.000
+                  p Más IVA..................$ 570 .000
                   p  Valor Total.............3.750.000
                   
     SlyderC.slyder-color(:datos="datosSlyderl")
@@ -98,7 +98,7 @@
       .col-lg-10
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/images/tema2/ico_5.svg' alt='AvatarTop')
-          .tarjeta.color-primario
+          .tarjeta.color-secundario
             .p-4
               .h2 Retiros y enajenaciones
               p Un activo intangible es dado de baja cuando es enajenado, también cuando no se esperan retribuciones o beneficios económicos en el futuro. 
@@ -106,10 +106,10 @@
 
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/images/tema2/ico_6.svg' alt='AvatarTop')
-          .tarjeta.color-primario
+          .tarjeta.color-secundario
             .p-4
               .h2 Revelación
-              p La revelación de los activos intangibles debe incluir: las bases de medición, el método de amortización, las vidas útiles o las tasas de amortización utilizadas, conciliación de los movimientos del período para cada clase de activo intangible, método de medición (Costo / revaluación), desembolsos por investigación y desarrollo entre otros.
+              p La revelación de los activos intangibles debe incluir: las bases de medición, el método de amortización, las vidas útiles o las tasas de amortización utilizadas, conciliación de los movimientos del período para cada clase de activo intangible, método de medición (costo / revaluación), desembolsos por investigación y desarrollo entre otros.
 
 
 
@@ -145,7 +145,7 @@ export default {
         texto: '',
         imagen: require('@/assets/curso/images/tema2/t_1_2.svg'),
         leyendaImagen:
-          'Nota: vale la pena aclarar que, aunque la norma internacional indica que todos los desembolsos deben reconocerse como gasto, queda a criterio de la entidad si, esta debe ser registrada como gastos o clasificarse como gastos pagados por anticipado.:',
+          'Nota: vale la pena aclarar que, aunque la norma internacional indica que todos los desembolsos deben reconocerse como gasto, queda a criterio de la entidad si, esta debe ser registrada como gastos o clasificarse como gastos pagados por anticipado.',
       },
       {
         titulo: '',

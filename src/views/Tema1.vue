@@ -44,7 +44,11 @@
           
         .h2.text-center Activos intangibles <br> identificables:
         p Contrario a los no identificables, los activos identificables son activos que se pueden separar. En este caso, podemos señalar algunos ejemplos como, los relacionados con la tecnología, bases de datos, software, licencias entre otros. 
-      
+
+    .row.justify-content-center.align-items-center.mb-3  
+      .col-12.col-md-8.col-lg-6.col-xl-6
+        img.img-a.my-3(src="@/assets/curso/images/tema1/line.svg" alt="", style="width:50px; display:block; margin:0 auto;")
+
     #t_1_4.titulo-segundo
       h2 1.4 Reconocimiento y medición de intangibles
     
@@ -91,7 +95,7 @@
     
     SlyderC.slyder-color(:datos="datosSlyder")
 
-    h3.titulo-tercero.mt-5 Periodo y Método de Amortización
+    h3.titulo-tercero.mt-5 PerÍodo y  método de amortización
 
     p.mb-5 De acuerdo con el ejercicio anterior, la amortización es la distribución sistémica a lo largo de la vida útil de un activo con vida útil finita, es decir, se debe dividir el valor total del año en doce meses para poder registrar el valor correspondiente a cada mes.
 
@@ -108,7 +112,7 @@
                     th Haber
                 tbody
                   tr
-                    td Gastos Amortización Propiedad Industrial Patente(4500/4)
+                    td Gastos Amortización Propiedad Industrial Patente
                     td 93,75 
                     td
                   tr
@@ -118,10 +122,9 @@
 
     p Vale la pena recordar que, la amortización de los intangibles inicia cuando el activo esté a disposición y en condiciones de uso. 
     p.mb-3 El método de amortización utilizado refleja el patrón de agotamiento esperado, por parte de la entidad.  El cargo por amortización de cada período se reconocerá en el resultado del periodo, según indicaciones de la NIC 38.
+   
 
-    p.mb-5 El método de amortización utilizado refleja el patrón de agotamiento esperado, por parte de la entidad.  El cargo por amortización de cada período se reconocerá en el resultado del periodo, según indicaciones de la NIC 38.          
-
-    h3.titulo-tercero.mt-5 Valor Razonable
+    h3.titulo-tercero.mt-5 Valor razonable
 
     p.mb-5 Corresponde al precio que se recibirá por vender un activo o que se pagaría por transferir un pasivo en una transacción entre dos agentes o participantes en el mercado en el momento de la medición del activo.
 
@@ -133,14 +136,14 @@
       .col-10
         .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
           .row.m-4.align-items-center.justify-content-between
-              .col-lg-4.mb-4.mb-lg-0
-                  img(src="@/assets/curso/images/tema1/img_7.svg")
+              .col-lg-5.mb-4.mb-lg-12
+                  img(src="@/assets/curso/images/tema1/img_7.svg" alt="", style="width:800px; display:block; margin:0 auto;")
               .col-lg-7
                 .bloque-texto-a__texto.p-5
                   p Entonces: 
                   p Valor en libros........... $ 2.500
                   p Valor razonable............$ 1.750
-                  p Valor del deterioro............750
+                  p Valor del deterioro..........$ 750
     
     #t_1_6.titulo-segundo
       h2 1.6 Política contable de intangibles
@@ -186,7 +189,7 @@ export default {
       {
         titulo: '',
         texto:
-          'Nota: se considera su valor en libros teniendo en cuenta el deterioro que ha sufrido el intangible',
+          'Nota: se considera su valor en libros teniendo en cuenta el deterioro que ha sufrido el intangible.',
         imagen: require('@/assets/curso/images/tema1/t_3_3.svg'),
         leyendaImagen:
           '3. A 1 de enero del año 20X3, se registra el deterioro que ha sufrido la marca correspondiente al 30%.',

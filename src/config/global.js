@@ -23,7 +23,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Intangibles y Diferidos',
+        titulo: 'Intangibles y diferidos',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -42,13 +42,13 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Clasificación de Activos Intangibles',
+            titulo: 'Clasificación de activos intangibles',
             hash: 'Activos',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Reconocimiento y medición de Intangibles',
+            titulo: 'Reconocimiento y medición de intangibles',
             hash: 'Medición',
           },
           {
@@ -172,9 +172,31 @@ export default {
         regional: 'Regional Santander',
       },
       {
-        nombre: ['Luis Arévalo'],
-        cargo: 'Diseño web y Producción Audiovisual',
+        nombre: ['Luis Zenen Arévalo Mantilla'],
+        cargo: 'Diseño web',
         centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
+      },
+      {
+        nombre: ['Zuleidy Maria Ruiz Torres'],
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        regional: 'Regional Tolima',
+      },
+      {
+        nombre: [
+          'Gilberto Junior Rodriguez Rodriguez,José Jaime Luis Tang Pinzón,Adriana Marcela Suárez Eljure',
+        ],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        regional: 'Regional Santander',
+      },
+      {
+        nombre: ['Adriana Ariza Nelson Vera'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
         regional: 'Regional Santander',
       },
       {
@@ -183,12 +205,18 @@ export default {
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
+      {
+        nombre: 'Jhana Johanna Bustillo Ardila',
+        cargo: ['Validación de diseño y contenido'],
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
+      },
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Brayan Stiven Pinto Diaz',
-        cargo: ['Desarrollo front-end', 'Validación de recursos'],
-        centro: 'Centro de comercio y servicios',
+        nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: ['Validación y vinculación en plataforma LMS'],
+        centro: 'Centro de Comercio y Servicios',
         regional: 'Regional Tolima',
       },
     ],
@@ -201,12 +229,8 @@ export default {
     },
     {
       referencia:
-        'Burgos Alarcón, H. (2007). Normas Internacionales de Contabilidad. Panorama. Universidad Politécnico Grancolombiano, 1(3), 65-70.: ',
+        'Burgos Alarcón, H. (2007). Normas Internacionales de Contabilidad. Panorama. Universidad Politécnico Grancolombiano, 1(3), 65-70. ',
       link: '',
-    },
-    {
-      referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
     },
     {
       referencia:
@@ -248,7 +272,7 @@ export default {
         'Activo identificable, de carácter no monetario y sin apariencia física. (IFRS, 2013, pág. 1)',
     },
     {
-      termino: 'Activo Monetario',
+      termino: 'Activo monetario',
       significado:
         'Es dinero en efectivo u otro activo, por el que se va a recibir una cantidad fija de dinero. (IFRS, 2008, pág. 3)',
     },
@@ -287,24 +311,29 @@ export default {
       significado:
         'El periodo durante el cual se espera que la entidad utilice el activo; o el número de unidades de producción o similares que se espera obtener del mismo por parte de una entidad. (CTCP, 2020, 11 de diciembre)',
     },
+    {
+      termino: 'Amortización',
+      significado:
+        'Distribución sistemática del importe depreciable de un activo intangible a lo largo de su vida útil. En el caso de activos intangibles, el término “amortización” se utiliza en vez de “depreciación”. (IFRS, 2008, pág. 4)',
+    },
+    {
+      termino: 'NIIF',
+      significado:
+        'Sigla en español de las IFRS - Normas expedidas por IASB. Este término trae incluidas las NIC (Normas Internacionales de Contabilidad), NIIF (Normas Internacionales de Información Financiera, así como las interpretaciones CINIIF y SIC.',
+    },
+    {
+      termino: 'Valor depreciable',
+      significado:
+        'Es el costo de un activo u otro que lo sustituye menos su valor residual. (NIIF, 2008)',
+    },
   ],
   complementario: [
     {
-      texto: 'NIC 38 Activos Intangibles',
+      texto:
+        'Estándares/normas internacionales de información financiera (IFRS7NIIF). (pp. 387-395). (3a edición ed.). Bogotá: ECOE Ediciones',
       tipo: 'Página Web',
       link:
-        'https://www2.deloitte.com/content/dam/Deloitte/cr/Documents/audit/documentos/niif-2019/NIC%2038%20-%20Activos%20Intangibles.pdf',
-    },
-    {
-      texto: 'Observatorio de NIIF / XBRL',
-      tipo: 'Página Web',
-      link: 'http://www.ctcp.gov.co/conceptos/2019/',
-    },
-    {
-      texto: 'NIIF 14 Cuentas de Diferimientos de Actividades Reguladas',
-      tipo: 'Página Web',
-      link:
-        'https://ccpp.org.ec/wp-content/uploads/2019/09/2-NIIF-14-Cuentas-de-Diferimientos-de-Actividades-Reguladas.pdf',
+        'https://ebookcentraroquestcom.bdigital.sena.edu.co/lib/senavirtualsp/detail.action?docID=3161303.',
     },
   ],
 }

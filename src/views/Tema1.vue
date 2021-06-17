@@ -5,7 +5,7 @@
     .titulo-principal
       .titulo-principal__numero
         span 1
-      h1 Intangibles y Diferidos
+      h1 Intangibles y diferidos
     
     p.mb-5 La NIC-38 establece que “un activo intangible debe ser identificable, es de carácter no monetario y sin apariencia física” (Blanco, 2013, p. 5). 
     .row.justify-content-center.align-items-center.mb-5
@@ -20,12 +20,12 @@
     #t_1_2.titulo-segundo
       h2 1.2  Importancia de los intangibles dentro de las organizaciones
     
-    p.mb-5 Los intangibles se han convertido en un factor importante dentro de las organizaciones y su valor agregado se ve reflejado a través de diferentes elementos (licencias, concesiones, patentes, propiedad intelectual, software entre otros) que han tenido relevancia y se han catalogado como activos capitalizables dentro de las organizaciones.
+    p.mb-5 Los intangibles se han convertido en un factor importante dentro de las organizaciones y su valor agregado se ve reflejado a través de diferentes elementos (licencias, concesiones, patentes, propiedad intelectual, "software" entre otros) que han tenido relevancia y se han catalogado como activos capitalizables dentro de las organizaciones.
   
     p.mb-5 Es importante reconocer que los activos intangibles no crean valor por sí mismos, puesto que, estos deben ir acompañados por la capacidad intelectual del factor humano ya que, en muchas ocasiones el mal manejo de estos elementos, o un mal reconocimiento o medición de estos activos dentro de las organizaciones pueden generar declive o desprendimiento de valor para el bien o servicio.
     
     #t_1_3.titulo-segundo
-      h2 1.3  Clasificación de Activos Intangibles
+      h2 1.3  Clasificación de activos intangibles
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-tarjeta.p-5
         .row.justify-content-center.mb-4
@@ -33,8 +33,8 @@
             figure
               img(src='@/assets/curso/images/tema1/ico_1.svg', alt='')
           
-        .h2.text-center.text-white Activos Intangibles <br> No Identificables:
-        p.text-white Son activos que no se pueden separar. Por ejemplo, una empresa no puede vender su posicionamiento porque tendría que vender toda la empresa, no puede vender por un lado la empresa y por otro lado el posicionamiento, se tiene que vender las dos cosas en conjunto ya que son inherentes a la entidad. 
+        .h2.text-center.text-white Activos intangibles <br> no identificables
+        p.text-white Son activos que no se pueden separar. Por ejemplo, una empresa no puede vender su posicionamiento porque tendría que vender toda la empresa, no puede vender por un lado la empresa y por otro lado el posicionamiento, se tienen que vender las dos cosas en conjunto ya que son inherentes a la entidad. 
     
       .col-md.tarjeta.color-acento-contenido.text-white.p-5
         .row.justify-content-center.mb-4
@@ -42,13 +42,13 @@
             figure
               img(src='@/assets/curso/images/tema1/ico_2.svg', alt='')
           
-        .h2.text-center Activos Intangibles <br> Identificables:
-        p Contrario a los no identificables los activos identificables son activos que se pueden separar. En este caso, podemos señalar algunos ejemplos como, los relacionados con la tecnología, bases de datos, software, licencias entre otros. 
+        .h2.text-center Activos intangibles <br> identificables:
+        p Contrario a los no identificables, los activos identificables son activos que se pueden separar. En este caso, podemos señalar algunos ejemplos como, los relacionados con la tecnología, bases de datos, software, licencias entre otros. 
       
     #t_1_4.titulo-segundo
-      h2 1.4 Reconocimiento y medición de Intangibles
+      h2 1.4 Reconocimiento y medición de intangibles
     
-    h3.titulo-tercero Reconocimiento de Intangibles.
+    h3.titulo-tercero Reconocimiento de intangibles
     
     .row.justify-content-center.align-items-center
       .col-12.col-md-8.col-lg-6.col-xl-6
@@ -68,7 +68,7 @@
         p.mb-3 De acuerdo con la NIC 38 un activo intangible se mide inicialmente al costo. Este costo comprende el precio de adquisición teniendo en cuenta los aranceles de importación e impuestos descontables en que se incurran sobre la adquisición, una vez aplicados los descuentos y rebajas comerciales, como también cualquier otro costo directamente atribuido y que implique la puesta en marcha y funcionamiento del activo.
 
     #t_1_5.titulo-segundo
-      h2 1.5 Generalidades de intangibles: vida útil, periodo, método de amortización y valor razonable.
+      h2 1.5 Generalidades de intangibles: vida útil, perÍodo, método de amortización y valor razonable
   
     h3.titulo-tercero Vida útil
     
@@ -79,8 +79,7 @@
         p.mb-3 Una entidad deberá considerar si la vida útil de un activo intangible es finita o indefinida, si el activo tiene una vida finita se amortizará. Estos activos cuando son generados internamente tienen una vida útil definida. En el caso donde no pueda determinarse con fiabilidad, se estima que es de 10 años.
 
         p.mb-3 Normalmente los activos con vida útil finita se amortizan. Si, el activo tiene una vida infinita no se amortizará, pero cada periodo se deberá evaluar si existe o no deterioro.
-
-        p.mb-3 De acuerdo con la NIC 38 la vida útil es “el periodo durante el cual se espera que la entidad utilice el activo” o “el número de unidades de producción o similares que se espera obtener del mismo por parte de una entidad”.       
+    
       .col-12.col-md-8.col-lg-6.col-xl-6
         img.img-a.my-3(src="@/assets/curso/images/tema1/img_4.svg" alt="", style="width:500px; display:block; margin:0 auto;") 
     
@@ -172,7 +171,7 @@ export default {
     datosSlyder: [
       {
         titulo: '',
-        texto: '**Causación- reconocimiento',
+        texto: 'Causación- reconocimiento',
         imagen: require('@/assets/curso/images/tema1/t_1_1.svg'),
         leyendaImagen:
           '1. Enero 1 de 20X1 se realiza el registro de la adquisición de la patente y de la marca:',

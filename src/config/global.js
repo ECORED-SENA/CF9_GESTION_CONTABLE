@@ -141,17 +141,12 @@ export default {
         regional: 'Regional Santander',
       },
       {
-        nombre: 'Claudia Briceida Coy Coy',
+        nombre: ['Angy Fernanda Salazar', 'Claudia Briceida Coy Coy'],
         cargo: 'Instructor',
         centro: 'Centro de Contabilidad',
         regional: '',
       },
-      {
-        nombre: 'Angy Fernanda Salazar',
-        cargo: 'Instructor',
-        centro: 'Centro de Contabilidad',
-        regional: '',
-      },
+
       {
         nombre: 'Maryuri Agudelo Franco',
         cargo: 'Diseñadora Instruccional',
@@ -178,14 +173,13 @@ export default {
         regional: 'Regional Santander',
       },
       {
-        nombre: ['Zuleidy Maria Ruiz Torres'],
-        cargo: 'Producción audiovisual',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-        regional: 'Regional Tolima',
-      },
-      {
         nombre: [
-          'Adriana Marcela Suárez Eljure, Gilberto Junior Rodriguez, Rodriguez,José Jaime, Luis Tang Pinzón, Adriana Ariza Nelson Vera',
+          'Adriana Marcela Suárez Eljure',
+          'Gilberto Junior Rodriguez',
+          'Rodriguez,José Jaime',
+          'Luis Tang Pinzón',
+          'Adriana Ariza Nelson Vera',
+          'Zuleidy Maria Ruiz Torres',
         ],
         cargo: 'Producción audiovisual',
         centro:

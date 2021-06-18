@@ -76,7 +76,7 @@
 
     .row.justify-content-center.align-items-center
       .col-11
-        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+        .bloque-texto-a.color-custom.p-4.p-md-5.mb-5 
           .row.m-4.align-items-center.justify-content-between
               .col-lg-5.mb-4.mb-lg-0
                   img(src="@/assets/curso/images/tema2/img_11.svg")

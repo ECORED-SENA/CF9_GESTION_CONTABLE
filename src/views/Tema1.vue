@@ -45,9 +45,7 @@
         .h2.text-center Activos intangibles <br> identificables
         p Contrario a los no identificables, los activos identificables son activos que se pueden separar. En este caso, podemos señalar algunos ejemplos como, los relacionados con la tecnología, bases de datos, software, licencias entre otros. 
 
-    .row.justify-content-center.align-items-center.mb-3  
-      .col-12.col-md-8.col-lg-6.col-xl-6
-        img.img-a.my-3(src="@/assets/curso/images/tema1/line.svg" alt="", style="width:50px; display:block; margin:0 auto;")
+    .custom_hr  
 
     #t_1_4.titulo-segundo
       h2 1.4 Reconocimiento y medición de intangibles
@@ -92,7 +90,7 @@
     p.mb-3 La compañía SABACO Ltda., el 1 de enero del año 20X1, adquiere una patente farmacéutica, a la que le queda una vida útil de 6 años, por $4.500.000.  En la misma fecha adquiere una marca comercial por $2.500.000. 
     p.mb-3 A principios del año 20X3 la entidad analiza que, la marca ha sufrido un deterioro del 30% de su valor y que dejará de tener valor comercial y por tanto dejará de producir flujos de efectivo dentro de 4 años.
     
-    SlyderC.slyder-color(:datos="datosSlyder")
+    SlyderC.mb-5(:datos="datosSlyder")
 
     h3.titulo-tercero.mt-5 Período y  método de amortización
 
@@ -133,7 +131,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-11
-        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+        .bloque-texto-a.color-custom.p-4.p-md-5.mb-5 
           .row.m-4.align-items-center.justify-content-between
               .col-lg-5.mb-4.mb-lg-12
                   img(src="@/assets/curso/images/tema1/img_7.svg" alt="", style="width:900px; display:block; margin:0 auto;")

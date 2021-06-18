@@ -109,7 +109,7 @@
           .tarjeta.color-secundario
             .p-4
               .h2 Revelación
-              p La revelación de los activos intangibles debe incluir: las bases de medición, el método de amortización, las vidas útiles o las tasas de amortización utilizadas, conciliación de los movimientos del período para cada clase de activo intangible, método de medición (costo/revaluación), desembolsos por investigación y desarrollo entre otros.
+              p La revelación de los activos intangibles debe incluir: las bases de medición, el método de amortización, las vidas útiles o las tasas de amortización utilizadas, conciliación de los movimientos del período para cada clase de activo intangible, método de medición (costo/revaluación), desembolsos por investigación y desarrollo, entre otros.
 
 
 

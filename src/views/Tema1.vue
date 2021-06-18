@@ -91,7 +91,6 @@
 
     p.mb-3 La compañía SABACO Ltda., el 1 de enero del año 20X1, adquiere una patente farmacéutica, a la que le queda una vida útil de 6 años, por $4.500.000.  En la misma fecha adquiere una marca comercial por $2.500.000. 
     p.mb-3 A principios del año 20X3 la entidad analiza que, la marca ha sufrido un deterioro del 30% de su valor y que dejará de tener valor comercial y por tanto dejará de producir flujos de efectivo dentro de 4 años.
-    p De acuerdo con la NIC 38 la vida útil es “el periodo durante el cual se espera que la entidad utilice el activo” o “el número de unidades de producción o similares que se espera obtener del mismo por parte de una entidad”. 
     
     SlyderC.slyder-color(:datos="datosSlyder")
 
@@ -133,11 +132,11 @@
     p.mb-5 Tomando el caso anterior se tiene, que el activo intangible “marcas”, de acuerdo con factores de mercado se determinó que, su valor razonable es de $1.750
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-10
+      .col-11
         .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
           .row.m-4.align-items-center.justify-content-between
               .col-lg-5.mb-4.mb-lg-12
-                  img(src="@/assets/curso/images/tema1/img_7.svg" alt="", style="width:800px; display:block; margin:0 auto;")
+                  img(src="@/assets/curso/images/tema1/img_7.svg" alt="", style="width:900px; display:block; margin:0 auto;")
               .col-lg-7
                 .bloque-texto-a__texto.p-5
                   p Entonces: 

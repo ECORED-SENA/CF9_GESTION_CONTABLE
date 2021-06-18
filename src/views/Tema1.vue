@@ -173,26 +173,26 @@ export default {
     // variables de vue
     datosSlyder: [
       {
-        titulo: '',
+        titulo:
+          '1. Enero 1 de 20X1 se realiza el registro de la adquisición de la patente y de la marca:',
         texto: 'Causación- reconocimiento',
         imagen: require('@/assets/curso/images/tema1/t_1_1.svg'),
-        leyendaImagen:
-          '1. Enero 1 de 20X1 se realiza el registro de la adquisición de la patente y de la marca:',
+        leyendaImagen: '',
       },
       {
-        titulo: '',
+        titulo:
+          '2. Diciembre 31 del año  20X1, se registra la amortización del activo con vida útil definida',
         texto: 'Nota: de la misma forma aplica para el año 20X2 y sucesivos.',
         imagen: require('@/assets/curso/images/tema1/t_2_2.svg'),
-        leyendaImagen:
-          '2. Diciembre 31 del año  20X1, se registra la amortización del activo con vida útil definida',
+        leyendaImagen: '',
       },
       {
-        titulo: '',
+        titulo:
+          '3. A 1 de enero del año 20X3, se registra el deterioro que ha sufrido la marca correspondiente al 30%.',
         texto:
           'Nota: se considera su valor en libros teniendo en cuenta el deterioro que ha sufrido el intangible.',
         imagen: require('@/assets/curso/images/tema1/t_3_3.svg'),
-        leyendaImagen:
-          '3. A 1 de enero del año 20X3, se registra el deterioro que ha sufrido la marca correspondiente al 30%.',
+        leyendaImagen: '',
       },
     ],
   }),

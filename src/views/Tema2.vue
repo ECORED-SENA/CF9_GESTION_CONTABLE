@@ -142,24 +142,24 @@ export default {
     datosSlyderl: [
       {
         titulo: '',
-        texto: '',
-        imagen: require('@/assets/curso/images/tema2/t_1_2.svg'),
-        leyendaImagen:
+        texto:
           'Nota: vale la pena aclarar que, aunque la norma internacional indica que todos los desembolsos deben reconocerse como gasto, queda a criterio de la entidad si, esta debe ser registrada como gastos o clasificarse como gastos pagados por anticipado.',
+        imagen: require('@/assets/curso/images/tema2/t_1_2.svg'),
+        leyendaImagen: '',
       },
       {
-        titulo: '',
-        texto: 'Manejo de anticipos',
-        imagen: require('@/assets/curso/images/tema2/t_2_2.svg'),
-        leyendaImagen:
+        titulo: 'Manejo de anticipos',
+        texto:
           'El 1 de enero de 20xx la empresa SABACO Ltda., adquirió una póliza de seguros contra incendios por 1 año, por valor de $4.000.000 mediante cheque girado del banco Davivienda.',
+        imagen: require('@/assets/curso/images/tema2/t_2_2.svg'),
+        leyendaImagen: '',
       },
       {
-        titulo: '',
-        texto: 'Enero 31 del año 20xx',
-        imagen: require('@/assets/curso/images/tema2/t_3_2.svg'),
-        leyendaImagen:
+        titulo: 'Enero 31 del año 20xx',
+        texto:
           'La empresa mensualmente debe hacer un asiento de ajuste para reconocer en el estado de resultados el gasto por póliza de seguros de cada periodo así:',
+        imagen: require('@/assets/curso/images/tema2/t_3_2.svg'),
+        leyendaImagen: '',
       },
     ],
   }),

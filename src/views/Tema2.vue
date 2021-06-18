@@ -25,8 +25,8 @@
     p.mb-5 El párrafo 70 de la NIC 38, sostiene:
       
     .row.justify-content-center.align-items-center.mb-5
-          .col-6
-            .bloque-texto-d.color-secundario.p-4
+          .col-8
+            .bloque-texto-d.color-secundario.p-5
               .bloque-texto-d__texto.mb-1
                 i.fas.fa-quote-left
                 span.h5 (…) el párrafo 68 no impide que ésta reconozca el pago anticipado como un activo, cuando dicho pago por servicios se haya realizado antes de que la entidad reciba estos servicios
@@ -39,7 +39,7 @@
     h3.titulo-tercero.mt-5 Reconocimiento
 
     p.mb-3 El párrafo 68 NIC 38: activos intangibles (Grupo 1) no impide que la entidad reconozca un pago anticipado como activo, cuando el pago por los bienes se haya realizado antes de que la entidad obtenga el derecho de acceso a esos bienes.
-    p.mb-5 Los desembolsos sobre un activo intangible, reconocidos inicialmente como gastos del "periodo" no se reconocerán posteriormente como parte del costo de un activo intangible.
+    p.mb-5 Los desembolsos sobre un activo intangible, reconocidos inicialmente como gastos del período, no se reconocerán posteriormente como parte del costo de un activo intangible.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-md-8.col-lg-6.col-xl-6
@@ -70,22 +70,22 @@
     
     p.mb-5 Por otro lado, los desembolsos sobre una partida intangible deberán reconocerse como un gasto cuando se incurra en ellos (NIC 38 Párrafo 68)
 
-    h3.titulo-tercero Ejemplo:
+    h3.titulo-tercero Ejemplos:
 
     p.mb-5 El 1 de junio del año 20X1, la empresa ABC, adquiere un contrato de arrendamiento.  Paga por anticipado tres meses de arrendamiento por valor de $3.000.000, más IVA tarifa general.
 
     .row.justify-content-center.align-items-center
-      .col-10
+      .col-11
         .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
           .row.m-4.align-items-center.justify-content-between
-              .col-lg-4.mb-4.mb-lg-0
+              .col-lg-5.mb-4.mb-lg-0
                   img(src="@/assets/curso/images/tema2/img_11.svg")
               .col-lg-7
                 .bloque-texto-a__texto.p-5
                  
                   p Valor Anticipo........... $ 3.000.000
                   p Más IVA..................$ 570 .000
-                  p  Valor Total.............3.750.000
+                  p  Valor Total.............$ 3.570.000
                   
     SlyderC.slyder-color(:datos="datosSlyderl")
 
@@ -109,7 +109,7 @@
           .tarjeta.color-secundario
             .p-4
               .h2 Revelación
-              p La revelación de los activos intangibles debe incluir: las bases de medición, el método de amortización, las vidas útiles o las tasas de amortización utilizadas, conciliación de los movimientos del período para cada clase de activo intangible, método de medición (costo / revaluación), desembolsos por investigación y desarrollo entre otros.
+              p La revelación de los activos intangibles debe incluir: las bases de medición, el método de amortización, las vidas útiles o las tasas de amortización utilizadas, conciliación de los movimientos del período para cada clase de activo intangible, método de medición (costo/revaluación), desembolsos por investigación y desarrollo entre otros.
 
 
 

@@ -20,7 +20,7 @@
     #t_1_2.titulo-segundo
       h2 1.2  Importancia de los intangibles dentro de las organizaciones
     
-    p.mb-5 Los intangibles se han convertido en un factor importante dentro de las organizaciones y su valor agregado se ve reflejado a través de diferentes elementos (licencias, concesiones, patentes, propiedad intelectual, "software" entre otros) que han tenido relevancia y se han catalogado como activos capitalizables dentro de las organizaciones.
+    p.mb-5 Los intangibles se han convertido en un factor importante dentro de las organizaciones y su valor agregado se ve reflejado a través de diferentes elementos (licencias, concesiones, patentes, propiedad intelectual, software, entre otros) que han tenido relevancia y se han catalogado como activos capitalizables dentro de las organizaciones.
   
     p.mb-5 Es importante reconocer que los activos intangibles no crean valor por sí mismos, puesto que, estos deben ir acompañados por la capacidad intelectual del factor humano ya que, en muchas ocasiones el mal manejo de estos elementos, o un mal reconocimiento o medición de estos activos dentro de las organizaciones pueden generar declive o desprendimiento de valor para el bien o servicio.
     
@@ -42,7 +42,7 @@
             figure
               img(src='@/assets/curso/images/tema1/ico_2.svg', alt='')
           
-        .h2.text-center Activos intangibles <br> identificables:
+        .h2.text-center Activos intangibles <br> identificables
         p Contrario a los no identificables, los activos identificables son activos que se pueden separar. En este caso, podemos señalar algunos ejemplos como, los relacionados con la tecnología, bases de datos, software, licencias entre otros. 
 
     .row.justify-content-center.align-items-center.mb-3  
@@ -72,7 +72,7 @@
         p.mb-3 De acuerdo con la NIC 38 un activo intangible se mide inicialmente al costo. Este costo comprende el precio de adquisición teniendo en cuenta los aranceles de importación e impuestos descontables en que se incurran sobre la adquisición, una vez aplicados los descuentos y rebajas comerciales, como también cualquier otro costo directamente atribuido y que implique la puesta en marcha y funcionamiento del activo.
 
     #t_1_5.titulo-segundo
-      h2 1.5 Generalidades de intangibles: vida útil, perÍodo, método de amortización y valor razonable
+      h2 1.5 Generalidades de intangibles: vida útil, período, método de amortización y valor razonable
   
     h3.titulo-tercero Vida útil
     
@@ -95,7 +95,7 @@
     
     SlyderC.slyder-color(:datos="datosSlyder")
 
-    h3.titulo-tercero.mt-5 PerÍodo y  método de amortización
+    h3.titulo-tercero.mt-5 Período y  método de amortización
 
     p.mb-5 De acuerdo con el ejercicio anterior, la amortización es la distribución sistémica a lo largo de la vida útil de un activo con vida útil finita, es decir, se debe dividir el valor total del año en doce meses para poder registrar el valor correspondiente a cada mes.
 

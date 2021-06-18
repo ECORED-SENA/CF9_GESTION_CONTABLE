@@ -30,39 +30,39 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Marco normativo',
-            hash: 'Marco',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
             titulo:
               'Importancia de los intangibles dentro de las organizaciones',
-            hash: 'intangibles',
+            hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
             titulo: 'Clasificación de activos intangibles',
-            hash: 'Activos',
+            hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
             titulo: 'Reconocimiento y medición de intangibles',
-            hash: 'Medición',
+            hash: 't_1_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
             titulo:
-              'Generalidades de intangibles: vida útil, periodo, método de amortización y valor razonable',
-            hash: 'vida útil',
+              'Generalidades de intangibles: vida útil, período, método de amortización y valor razonable',
+            hash: 't_1_5',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.6',
             titulo: 'Política contable de intangibles',
-            hash: 'Política',
+            hash: 't_1_6',
           },
         ],
       },
@@ -167,7 +167,7 @@ export default {
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Integración de recursos y pruebas',
+        cargo: 'Soporte Organizacional',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
@@ -185,7 +185,7 @@ export default {
       },
       {
         nombre: [
-          'Gilberto Junior Rodriguez Rodriguez,José Jaime Luis Tang Pinzón,Adriana Marcela Suárez Eljure',
+          'Adriana Marcela Suárez Eljure, Gilberto Junior Rodriguez, Rodriguez,José Jaime, Luis Tang Pinzón, Adriana Ariza Nelson Vera',
         ],
         cargo: 'Producción audiovisual',
         centro:
@@ -193,14 +193,7 @@ export default {
         regional: 'Regional Santander',
       },
       {
-        nombre: ['Adriana Ariza Nelson Vera'],
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-        regional: 'Regional Santander',
-      },
-      {
-        nombre: 'Gusatvo Adolfo Marún Suárez',
+        nombre: 'Gustavo Adolfo Marún Suárez',
         cargo: 'Desarrollo Front-End',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
@@ -245,7 +238,7 @@ export default {
     },
     {
       referencia:
-        'SUIN Juriscoop. (2020, 10 de diciembre).Decreto 2784 de diciembre 2012.',
+        'SUIN Juriscoop. (2020, 10 de diciembre). Decreto 2784 de diciembre 2012.',
       link: 'http://suin.gov.co/viewDocument.asp?id=1776952',
     },
     {
@@ -256,8 +249,7 @@ export default {
     {
       referencia:
         'NIIF PARA LAS PYMES – JULIO 2009- sección 18 Activos Intangibles Distintos de la Plusvalía.Normas Internacionales de Información Financiera (NIIF) (2008). Guía rápida IFRS 2008.',
-      link:
-        'https://www.pwc.com/. https://www.pwc.com/cl/es/ifrs/assets/grifrs_2008.pdf',
+      link: 'https://www.pwc.com/cl/es/ifrs/assets/grifrs_2008.pdf',
     },
   ],
   glosario: [
@@ -333,7 +325,7 @@ export default {
         'Estándares/normas internacionales de información financiera (IFRS7NIIF). (pp. 387-395). (3a edición ed.). Bogotá: ECOE Ediciones',
       tipo: 'Página Web',
       link:
-        'https://ebookcentraroquestcom.bdigital.sena.edu.co/lib/senavirtualsp/detail.action?docID=3161303.',
+        'https://ebookcentraroquestcom.bdigital.sena.edu.co/lib/senavirtualsp/detail.action?docID=3161303',
     },
   ],
 }

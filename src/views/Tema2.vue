@@ -16,7 +16,7 @@
       h2  2.1 Concepto de cargos diferidos
 
     p.mb-5 Los diferidos dependen de su materialidad y normalmente se llevan a una cuenta de gastos, pero esto no impide que en algunas ocasiones se deba hacer cierto análisis porque puede ser que el cargo diferido cumpla la definición de activo, y si en algún momento cumple con la definición de activo, es decir que sea un recurso controlado por la empresa, proveniente de sucesos pasados, de los cuales se espera recibir beneficios futuros.
-
+    .custom_hr 
     #t_2_2.titulo-segundo
       h2  2.2 Concepto de gastos pagados por anticipado
 
@@ -32,7 +32,7 @@
                 span.h5 (…) el párrafo 68 no impide que ésta reconozca el pago anticipado como un activo, cuando dicho pago por servicios se haya realizado antes de que la entidad reciba estos servicios
                 i.fas.fa-quote-right
               .bloque-texto-d__autor 
-                
+    .custom_hr            
     #t_2_3.titulo-segundo
       h2  2.3 Reconocimiento y medición
 
@@ -70,7 +70,7 @@
     
     p.mb-5 Por otro lado, los desembolsos sobre una partida intangible deberán reconocerse como un gasto cuando se incurra en ellos (NIC 38 Párrafo 68)
 
-    h3.titulo-tercero Ejemplos:
+    h3.titulo-tercero Ejemplo 1 :
 
     p.mb-5 El 1 de junio del año 20X1, la empresa ABC, adquiere un contrato de arrendamiento.  Paga por anticipado tres meses de arrendamiento por valor de $3.000.000, más IVA tarifa general.
 
@@ -86,11 +86,51 @@
                   p Valor Anticipo........... $ 3.000.000
                   p Más IVA..................$ 570 .000
                   p  Valor Total.............$ 3.570.000
-                  
-    SlyderC.slyder-color(:datos="datosSlyderl")
+
+      h3.titulo-tercero Reconocimiento 
+
+      .col-10
+        .tabla-a.color-acento-contenido.mb-2
+          table
+            thead
+              tr.th-1.text-center
+                th Cuenta 
+                th Debe
+                th     
+            tbody
+              tr
+                td <b>Gastos arrendamiento</b>
+                td.text-center $ 3.000.000
+                td
+              tr
+                td <b>Activo por impuestos</b> 
+                td.text-center $ 570.000
+                td
+              
+      h3.titulo-tercero.mt-3 Momento del pago 
+
+      .col-10
+        .tabla-a.color-acento-contenido.mt-2
+          table
+            thead
+              tr.th-1.text-center
+                th Cuenta 
+                th Debe
+                th     
+            tbody
+              tr
+                td <b>Cuentas por pagar</b>
+                td.text-center $ 3.570.000
+                td
+              tr
+                td <b>Activo-bancos nacionales</b> 
+                td.text-center $ 3.570.000
+                td
+
+    SlyderC.mt-5(:datos="datosSlyderl")
 
     p.mt-5.mb-5 Estos pagos por anticipado se deben ir amortizando hasta finalizar el tiempo establecido.
-
+    .custom_hr 
     #t_2_4.titulo-segundo
       h2 2.4 Retiros, enajenaciones y revelación
 
@@ -140,13 +180,6 @@ export default {
   data: () => ({
     // variables de vue
     datosSlyderl: [
-      {
-        titulo: '',
-        texto:
-          'Nota: vale la pena aclarar que, aunque la norma internacional indica que todos los desembolsos deben reconocerse como gasto, queda a criterio de la entidad si, esta debe ser registrada como gastos o clasificarse como gastos pagados por anticipado.',
-        imagen: require('@/assets/curso/images/tema2/t_1_2.svg'),
-        leyendaImagen: '',
-      },
       {
         titulo: 'Manejo de anticipos',
         texto:

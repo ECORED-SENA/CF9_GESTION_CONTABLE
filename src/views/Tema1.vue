@@ -68,6 +68,8 @@
       .col-12.col-md-8.col-lg-6.col-xl-6
         h3.titulo-tercero Medición de intangibles
         p.mb-3 De acuerdo con la NIC 38 un activo intangible se mide inicialmente al costo. Este costo comprende el precio de adquisición teniendo en cuenta los aranceles de importación e impuestos descontables en que se incurran sobre la adquisición, una vez aplicados los descuentos y rebajas comerciales, como también cualquier otro costo directamente atribuido y que implique la puesta en marcha y funcionamiento del activo.
+    
+    .custom_hr 
 
     #t_1_5.titulo-segundo
       h2 1.5 Generalidades de intangibles: vida útil, período, método de amortización y valor razonable
@@ -141,6 +143,7 @@
                   p Valor en libros........... $ 2.500
                   p Valor razonable............$ 1.750
                   p Valor del deterioro..........$ 750
+    .custom_hr 
     
     #t_1_6.titulo-segundo
       h2 1.6 Política contable de intangibles
@@ -173,7 +176,7 @@ export default {
         titulo:
           '1. Enero 1 de 20X1 se realiza el registro de la adquisición de la patente y de la marca:',
         texto: 'Causación- reconocimiento',
-        imagen: require('@/assets/curso/images/tema1/t_1_1.svg'),
+        imagen: require('@/assets/curso/images/tema1/t_1.svg'),
         leyendaImagen: '',
       },
       {

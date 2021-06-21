@@ -16,14 +16,14 @@
       h2 1.1  Marco normativo
     
     p.mb-5 Para realizar la presentación razonable y en cumplimiento de las NIIF, los estados financieros siempre deben reflejar, razonablemente, todas y cada una de sus partidas, dentro de las que se encuentran, los activos intangibles. Esta presentación razonable exige proporcionar la imagen fiel de los efectos de las transacciones, eventos y condiciones de acuerdo con las definiciones y criterios de reconocimiento de los activos, pasivos, ingresos y gastos fijados en el Marco Conceptual de la norma.
-    
+    .custom_hr 
     #t_1_2.titulo-segundo
       h2 1.2  Importancia de los intangibles dentro de las organizaciones
     
     p.mb-5 Los intangibles se han convertido en un factor importante dentro de las organizaciones y su valor agregado se ve reflejado a través de diferentes elementos (licencias, concesiones, patentes, propiedad intelectual, software, entre otros) que han tenido relevancia y se han catalogado como activos capitalizables dentro de las organizaciones.
-  
+    .custom_hr 
     p.mb-5 Es importante reconocer que los activos intangibles no crean valor por sí mismos, puesto que, estos deben ir acompañados por la capacidad intelectual del factor humano ya que, en muchas ocasiones el mal manejo de estos elementos, o un mal reconocimiento o medición de estos activos dentro de las organizaciones pueden generar declive o desprendimiento de valor para el bien o servicio.
-    
+    .custom_hr 
     #t_1_3.titulo-segundo
       h2 1.3  Clasificación de activos intangibles
     .tarjeta--container.row.mb-5
@@ -46,7 +46,7 @@
         p Contrario a los no identificables, los activos identificables son activos que se pueden separar. En este caso, podemos señalar algunos ejemplos como, los relacionados con la tecnología, bases de datos, software, licencias entre otros. 
 
     .custom_hr  
-
+   
     #t_1_4.titulo-segundo
       h2 1.4 Reconocimiento y medición de intangibles
     
@@ -112,12 +112,12 @@
                 tbody
                   tr
                     td Gastos Amortización Propiedad Industrial Patente
-                    td 93,75 
+                    td.text-center 93,75 
                     td
                   tr
                     td Efectivo y Equivalentes a Efectivo
                     td 
-                    td 93,75 
+                    td.text-center 93,75 
 
     p Vale la pena recordar que, la amortización de los intangibles inicia cuando el activo esté a disposición y en condiciones de uso. 
     p.mb-3 El método de amortización utilizado refleja el patrón de agotamiento esperado, por parte de la entidad.  El cargo por amortización de cada período se reconocerá en el resultado del periodo, según indicaciones de la NIC 38.
@@ -156,7 +156,7 @@
       .col-12.col-md-8.col-lg-6.col-xl-6
         p.mb-3 La organización deberá optar, como política contable el modelo del costo o el modelo de revaluación, según indican los párrafos 74 y 75 respectivamente de la NIC 38. La norma también indica que, si un activo intangible por ejemplo se contabiliza según el modelo del costo, todos los demás activos clasificados en la misma clase se deberán contabilizar con el mismo modelo.
 
-
+    
 
 
 

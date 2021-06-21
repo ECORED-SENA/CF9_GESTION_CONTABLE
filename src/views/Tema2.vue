@@ -74,6 +74,7 @@
 
     p.mb-5 El 1 de junio del año 20X1, la empresa ABC, adquiere un contrato de arrendamiento.  Paga por anticipado tres meses de arrendamiento por valor de $3.000.000, más IVA tarifa general.
 
+    
     .row.justify-content-center.align-items-center
       .col-11
         .bloque-texto-a.color-custom.p-4.p-md-5.mb-5 
@@ -89,14 +90,14 @@
 
       h3.titulo-tercero Reconocimiento 
 
-      .col-10
-        .tabla-a.color-acento-contenido.mb-2
+      .col-10.mb-5
+        .tabla-a.color-acento-contenido
           table
             thead
               tr.th-1.text-center
                 th Cuenta 
                 th Debe
-                th     
+                th Haber    
             tbody
               tr
                 td <b>Gastos arrendamiento</b>
@@ -106,10 +107,14 @@
                 td <b>Activo por impuestos</b> 
                 td.text-center $ 570.000
                 td
+              tr
+                td <b>Cuentas por Pagar</b> 
+                td
+                td.text-center 3.570.000
               
       h3.titulo-tercero.mt-3 Momento del pago 
 
-      .col-10
+      .col-10.mb-5
         .tabla-a.color-acento-contenido.mt-2
           table
             thead
@@ -126,10 +131,17 @@
                 td <b>Activo-bancos nacionales</b> 
                 td.text-center $ 3.570.000
                 td
+    .cajon.color-acento-contenido.p-4.mb-3
+      .h5 Nota:
+        p Vale la pena aclarar que, aunque la norma internacional indica que todos los desembolsos deben reconocerse como gasto, queda a criterio de la entidad si, esta debe ser registrada como gastos o clasificarse como gastos pagados por anticipado. 
+    h3.titulo.tercero Ejemplo 2:
+    
+    p El 1 de enero de 20xx la empresa SABACO Ltda., adquirió una póliza de seguros contra incendios por 1 año, por valor de $4.000.000 mediante cheque girado del banco Davivienda.
 
     SlyderC.mt-5(:datos="datosSlyderl")
 
-    p.mt-5.mb-5 Estos pagos por anticipado se deben ir amortizando hasta finalizar el tiempo establecido.
+
+    p.mb-5 Estos pagos por anticipado se deben ir amortizando hasta finalizar el tiempo establecido.
     .custom_hr 
     #t_2_4.titulo-segundo
       h2 2.4 Retiros, enajenaciones y revelación
@@ -182,15 +194,13 @@ export default {
     datosSlyderl: [
       {
         titulo: 'Manejo de anticipos',
-        texto:
-          'El 1 de enero de 20xx la empresa SABACO Ltda., adquirió una póliza de seguros contra incendios por 1 año, por valor de $4.000.000 mediante cheque girado del banco Davivienda.',
+        texto: '',
         imagen: require('@/assets/curso/images/tema2/t_2_2.svg'),
         leyendaImagen: '',
       },
       {
         titulo: 'Enero 31 del año 20xx',
-        texto:
-          'La empresa mensualmente debe hacer un asiento de ajuste para reconocer en el estado de resultados el gasto por póliza de seguros de cada periodo así:',
+        texto: '',
         imagen: require('@/assets/curso/images/tema2/t_3_2.svg'),
         leyendaImagen: '',
       },

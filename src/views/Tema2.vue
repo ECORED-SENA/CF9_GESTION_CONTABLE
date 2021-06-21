@@ -70,7 +70,7 @@
     
     p.mb-5 Por otro lado, los desembolsos sobre una partida intangible deberán reconocerse como un gasto cuando se incurra en ellos (NIC 38 Párrafo 68)
 
-    h3.titulo-tercero Ejemplo 1 :
+    h3.titulo-tercero Ejemplo 1:
 
     p.mb-5 El 1 de junio del año 20X1, la empresa ABC, adquiere un contrato de arrendamiento.  Paga por anticipado tres meses de arrendamiento por valor de $3.000.000, más IVA tarifa general.
 
@@ -129,8 +129,8 @@
                 td
               tr
                 td <b>Activo-bancos nacionales</b> 
-                td.text-center $ 3.570.000
-                td
+                td.text-center  
+                td $ 3.570.000
     .cajon.color-acento-contenido.p-4.mb-3
       .h5 Nota:
         p Vale la pena aclarar que, aunque la norma internacional indica que todos los desembolsos deben reconocerse como gasto, queda a criterio de la entidad si, esta debe ser registrada como gastos o clasificarse como gastos pagados por anticipado. 
@@ -199,7 +199,7 @@ export default {
         leyendaImagen: '',
       },
       {
-        titulo: 'Enero 31 del año 20xx',
+        titulo: '',
         texto: '',
         imagen: require('@/assets/curso/images/tema2/t_3_2.svg'),
         leyendaImagen: '',

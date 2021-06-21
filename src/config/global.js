@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Activos Intangibles',
+    componenteFormativo: 'Activos intangibles',
     descripcionCurso:
       'Hallar valor en un panorama empresarial tan cambiante donde tradicionalmente los recursos de la empresa eran cosas que se podían palpar como un edificio, una máquina, un vehículo, un terreno,  sobre lo que las empresas centran su atención; pero con el paso del tiempo, los procesos, las relaciones y los modelos comerciales han evolucionado; y es así como, las empresas invierten cada vez más en activos intangibles no solamente en una computadora, un software, sino también en la investigación, innovación, la marca, el diseño organizacional, el conocimiento, las relaciones, entre otros. Por lo anterior, en el presente componente se analiza el tratamiento contable de los activos intangibles y diferidos, de acuerdo con los criterios establecidos en las Normas Internacionales de Información Financiera.',
     imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.svg'),
@@ -132,6 +132,7 @@ export default {
     liderEquipo: {
       nombre: 'Maria Camila Garcia Santamaria',
       cargo: 'Líder del equipo',
+      regional: 'Dirección General',
     },
     contenidoInstruccional: [
       {
@@ -142,14 +143,14 @@ export default {
       },
       {
         nombre: ['Angy Fernanda Salazar', 'Claudia Briceida Coy Coy'],
-        cargo: 'Instructor',
+        cargo: 'Instructoras',
         centro: 'Centro de Contabilidad',
         regional: '',
       },
 
       {
         nombre: 'Maryuri Agudelo Franco',
-        cargo: 'Diseñadora Instruccional',
+        cargo: 'Diseñadora instruccional',
         centro: 'Centro de Diseño y Metrología',
       },
     ],
@@ -162,7 +163,7 @@ export default {
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte Organizacional',
+        cargo: 'Soporte organizacional',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
@@ -175,10 +176,10 @@ export default {
       {
         nombre: [
           'Adriana Marcela Suárez Eljure',
+          'Adriana Ariza Nelson Vera',
           'Gilberto Junior Rodriguez',
           'Rodriguez,José Jaime',
           'Luis Tang Pinzón',
-          'Adriana Ariza Nelson Vera',
           'Zuleidy Maria Ruiz Torres',
         ],
         cargo: 'Producción audiovisual',
@@ -188,7 +189,7 @@ export default {
       },
       {
         nombre: 'Gustavo Adolfo Marún Suárez',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Desarrollo front-end',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },

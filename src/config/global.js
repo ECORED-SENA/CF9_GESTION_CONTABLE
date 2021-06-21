@@ -145,13 +145,14 @@ export default {
         nombre: ['Angy Fernanda Salazar', 'Claudia Briceida Coy Coy'],
         cargo: 'Instructoras',
         centro: 'Centro de Contabilidad',
-        regional: '',
+        regional: 'Regional Distrito Capital',
       },
 
       {
         nombre: 'Maryuri Agudelo Franco',
         cargo: 'Diseñadora instruccional',
         centro: 'Centro de Diseño y Metrología',
+        regional: 'Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -164,8 +165,8 @@ export default {
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        centro: 'Centro de Comercio y Servicios',
+        regional: 'Regional Tolima',
       },
       {
         nombre: ['Luis Zenen Arévalo Mantilla'],
@@ -176,16 +177,17 @@ export default {
       {
         nombre: [
           'Adriana Marcela Suárez Eljure',
-          'Adriana Ariza Nelson Vera',
+          'Adriana Ariza',
           'Gilberto Junior Rodriguez',
-          'Rodriguez,José Jaime',
+          'José Jaime',
           'Luis Tang Pinzón',
+          'Nelson Vera ',
           'Zuleidy Maria Ruiz Torres',
         ],
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-        regional: 'Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura, Centro de Comercio y Servicios',
+        regional: 'Regional Santander, Regional Tolima',
       },
       {
         nombre: 'Gustavo Adolfo Marún Suárez',

@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Activos intangibles',
     descripcionCurso:
-      'Hallar valor en un panorama empresarial tan cambiante donde tradicionalmente los recursos de la empresa eran cosas que se podían palpar como un edificio, una máquina, un vehículo, un terreno,  sobre lo que las empresas centran su atención; pero con el paso del tiempo, los procesos, las relaciones y los modelos comerciales han evolucionado; y es así como, las empresas invierten cada vez más en activos intangibles no solamente en una computadora, un software, sino también en la investigación, innovación, la marca, el diseño organizacional, el conocimiento, las relaciones, entre otros. Por lo anterior, en el presente componente se analiza el tratamiento contable de los activos intangibles y diferidos, de acuerdo con los criterios establecidos en las Normas Internacionales de Información Financiera.',
+      'En el presente componente se analiza el tratamiento contable de los activos intangibles y diferidos, de acuerdo con los criterios establecidos en las Normas Internacionales de Información Financiera; dejando ver la importancia, de como el paso del tiempo, ha establecido procesos,  relaciones y modelos comerciales que han permitido a las empresas, invertir en activos intangibles, sino también en la investigación, innovación, la marca, el diseño organizacional, el conocimiento, entre otros.',
     imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.png'),
   },

@@ -182,12 +182,16 @@ export default {
           'José Jaime',
           'Luis Tang Pinzón',
           'Nelson Vera ',
-          'Zuleidy Maria Ruiz Torres',
         ],
         cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura, Centro de Comercio y Servicios',
-        regional: 'Regional Santander, Regional Tolima',
+        centro: 'Centro Industrial del Diseño y la Manufactura, ',
+        regional: 'Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios',
+        regional: 'Regional Tolima',
       },
       {
         nombre: 'Gustavo Adolfo Marún Suárez',

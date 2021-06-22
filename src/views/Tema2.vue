@@ -121,7 +121,7 @@
               tr.th-1.text-center
                 th Cuenta 
                 th Debe
-                th     
+                th Haber    
             tbody
               tr
                 td <b>Cuentas por pagar</b>

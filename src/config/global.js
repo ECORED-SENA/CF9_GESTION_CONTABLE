@@ -323,10 +323,10 @@ export default {
   complementario: [
     {
       texto:
-        'Estándares/normas internacionales de información financiera (IFRS7NIIF). (pp. 387-395). (3a edición ed.). Bogotá: ECOE Ediciones',
+        'Mantilla Blanco, S. A. (2015). Estándares/Normas Internacionales de Información Financiera (IFRS/NIIF) (5a. ed.). Ecoe Ediciones.',
       tipo: 'Página Web',
       link:
-        'https://ebookcentraroquestcom.bdigital.sena.edu.co/lib/senavirtualsp/detail.action?docID=3161303',
+        'https://login.bdigital.sena.edu.co/login?url=https://elibro.net/es/lc/senavirtual/titulos/114333',
     },
   ],
 }

@@ -85,7 +85,7 @@
                 .bloque-texto-a__texto.p-5
                  
                   p Valor Anticipo........... $ 3.000.000
-                  p Más IVA..................$ 570 .000
+                  p Más IVA..................$ 570.000
                   p  Valor Total.............$ 3.570.000
 
       h3.titulo-tercero Reconocimiento 

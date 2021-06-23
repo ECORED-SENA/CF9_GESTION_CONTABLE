@@ -184,7 +184,7 @@ export default {
           'Nelson Vera ',
         ],
         cargo: 'Producción audiovisual',
-        centro: 'Centro Industrial del Diseño y la Manufactura, ',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
       {

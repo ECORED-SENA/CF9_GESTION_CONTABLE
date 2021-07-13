@@ -11,8 +11,9 @@
     
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption 
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/WHnOdzKHWCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
+    
+
     p.mb-3 Durante el presente componente tendrá la oportunidad de fortalecer sus conocimientos frente a la legislación laboral; por ende, es necesario que indague sobre las generalidades de contratos, nómina, beneficios a empleados y reconocimiento de los hechos presentados. Lo anterior se debe realizar teniendo en cuenta la normativa vigente.
     
     p.mb-3 Para la elaboración de este componente, se abordaron varios autores conocidos en contratos de trabajo y liquidación de nómina, de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido que el conocimiento es social y, por lo tanto, es para usarlo por quienes necesitan adquirirlo. Se espera que este documento sea útil para todos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos de gestión contable e información financiera.

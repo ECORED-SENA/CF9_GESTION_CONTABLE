@@ -3,8 +3,8 @@ export default {
     componenteFormativo: 'Activos intangibles',
     descripcionCurso:
       'En el presente componente se analiza el tratamiento contable de los activos intangibles y diferidos, de acuerdo con los criterios establecidos en las Normas Internacionales de Información Financiera; dejando ver la importancia, de como el paso del tiempo, ha establecido procesos,  relaciones y modelos comerciales que han permitido a las empresas, invertir en activos intangibles, sino también en la investigación, innovación, la marca, el diseño organizacional, el conocimiento, entre otros.',
-    imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-bg.png'),
   },
   menuPrincipal: {
     menu: [
@@ -129,89 +129,107 @@ export default {
     ],
   },
   creditos: {
-    liderEquipo: {
-      nombre: 'Maria Camila Garcia Santamaria',
-      cargo: 'Líder del equipo',
-      regional: 'Dirección General',
-    },
+    liderEquipo: [
+      {
+        nombre: 'Maria Camila Garcia Santamaria',
+        cargo: 'Líder del equipo',
+        centro: 'Dirección General',
+      },
+    ],
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor pedagógico',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        cargo: 'Asesor Metodológico y Pedagógico',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: ['Angy Fernanda Salazar', 'Claudia Briceida Coy Coy'],
-        cargo: 'Instructoras',
-        centro: 'Centro de Contabilidad',
-        regional: 'Regional Distrito Capital',
+        nombre: ['Angy Fernanda Salazar'],
+        cargo: 'Instructora',
+        centro: 'Centro de Contabilidad - Regional Distrito Capital',
+      },
+      {
+        nombre: ['Claudia Briceida Coy Coy'],
+        cargo: 'Instructora',
+        centro: 'Centro de Contabilidad - Regional Distrito Capital',
       },
 
       {
         nombre: 'Maryuri Agudelo Franco',
         cargo: 'Diseñadora instruccional',
-        centro: 'Centro de Diseño y Metrología',
-        regional: 'Regional Distrito Capital',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
       {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios',
-        regional: 'Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: ['Luis Zenen Arévalo Mantilla'],
         cargo: 'Diseño web',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        regional: '',
       },
       {
-        nombre: [
-          'Adriana Marcela Suárez Eljure',
-          'Adriana Ariza',
-          'Gilberto Junior Rodriguez',
-          'José Jaime',
-          'Luis Tang Pinzón',
-          'Nelson Vera ',
-        ],
+        nombre: ['Adriana Marcela Suárez Eljure'],
         cargo: 'Producción audiovisual',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        regional: '',
+      },
+      {
+        nombre: ['Gilberto Junior Rodriguez'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        regional: '',
+      },
+      {
+        nombre: ['José Jaime Luis Tang Pinzón'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        regional: '',
+      },
+      {
+        nombre: ['Nelson Vera'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        regional: '',
       },
       {
         nombre: 'Zuleidy Maria Ruiz Torres',
         cargo: 'Producción audiovisual',
-        centro: 'Centro de Comercio y Servicios',
-        regional: 'Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Gustavo Adolfo Marún Suárez',
         cargo: 'Desarrollo front-end',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: ['Validación de diseño y contenido'],
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: ['Validación y vinculación en plataforma LMS'],
-        centro: 'Centro de Comercio y Servicios',
-        regional: 'Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },

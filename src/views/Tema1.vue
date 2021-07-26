@@ -173,9 +173,9 @@ export default {
     // variables de vue
     datosSlyder: [
       {
-        titulo: '',
+        titulo: '1. Enero 1 de 20X1 se realiza el registro de la adquisición de la patente y de la marca: causación- reconocimiento',
         texto:
-          '1. Enero 1 de 20X1 se realiza el registro de la adquisición de la patente y de la marca: causación- reconocimiento',
+          '',
         imagen: require('@/assets/curso/images/tema1/t_1.svg'),
         leyendaImagen: '',
       },

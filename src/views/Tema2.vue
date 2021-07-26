@@ -29,7 +29,7 @@
             .bloque-texto-d.color-secundario.p-5
               .bloque-texto-d__texto.mb-1
                 i.fas.fa-quote-left
-                span.h5 (…) el párrafo 68 no impide que ésta reconozca el pago anticipado como un activo, cuando dicho pago por servicios se haya realizado antes de que la entidad reciba estos servicios
+                span.h5 (…) el párrafo 68 no impide que esta reconozca el pago anticipado como un activo, cuando dicho pago por servicios se haya realizado antes de que la entidad reciba estos servicios
                 i.fas.fa-quote-right
               .bloque-texto-d__autor 
     .custom_hr            

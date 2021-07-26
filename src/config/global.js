@@ -116,11 +116,11 @@ export default {
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
-      {
+      /*{
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
-      },
+      },*/
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',
@@ -267,7 +267,7 @@ export default {
     },
     {
       referencia:
-        'NIIF PARA LAS PYMES – JULIO 2009- sección 18 Activos Intangibles Distintos de la Plusvalía.Normas Internacionales de Información Financiera (NIIF) (2008). Guía rápida IFRS 2008.',
+        'NIIF PARA LAS PYMES – JULIO 2009- sección 18 Activos Intangibles Distintos de la Plusvalía. Normas Internacionales de Información Financiera (NIIF) (2008). Guía rápida IFRS 2008.',
       link: 'https://www.pwc.com/cl/es/ifrs/assets/grifrs_2008.pdf',
     },
   ],
